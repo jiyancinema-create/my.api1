@@ -1,18 +1,15 @@
 {
-  "name": "jiyan-cinema-streamer",
+  "name": "jiyan-cinema-api",
   "version": "1.0.0",
-  "description": "Telegram Video Streamer for Cloudflare Workers",
-  "main": "index.js",
-  "type": "module",
-  "dependencies": {
-    "telegram": "^2.22.2",
-    "input": "^1.0.1"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  },
+  "description": "Telegram Video Streaming API for Jiyan Cinema",
+  "main": "functions/index.js",
   "scripts": {
-    "start": "node index.js",
-    "deploy": "wrangler deploy"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dewran Haji",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240000.0"
   }
 }
